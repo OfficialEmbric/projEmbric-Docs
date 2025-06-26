@@ -1,0 +1,50 @@
+site_name: Embric Documentation
+site_url: https://OfficialEmbric.github.io/projEmbric-Docs/
+site_description: Embric turns actions into assets — a Solana-based utility mining protocol for next-gen Web3 coordination.
+site_author: Project Embric
+
+theme:
+  name: material
+  logo: assets/embric-logo.svg
+  favicon: assets/favicon.png
+  palette:
+    - scheme: default
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: lime
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Welcome: index.md
+  - Executive Summary: executive-summary.md
+  - Overview & Vision: overview-vision.md
+  - Core Functionalities: core-functionalities.md
+  - Technical Architecture: technical-architecture.md
+  - Data Governance & Security: data-governance.md
+  - Operational Workflow: operational-workflow.md
+  - Embric Protocol Overview: embric-overview.md
+  - Verticals Overview: verticals-overview.md
+  - Contact & Partnerships: contact-partnerships.md
+  - Legal & Risk Disclaimer: legal-disclaimer.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+repo_url: https://github.com/OfficialEmbric/projEmbric-Docs
+repo_name: projEmbric-Docs
+edit_uri: ""
+
+plugins:
+  - search
