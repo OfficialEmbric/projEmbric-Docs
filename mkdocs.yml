@@ -5,8 +5,8 @@ site_author: Project Embric
 
 theme:
   name: material
-  logo: assets/embric-logo.svg
-  favicon: assets/favicon.png
+  logo: assets/og-banner.png         # Wide banner used as logo
+  favicon: assets/favicon.ico        # Actual .ico file
   palette:
     - scheme: default
       primary: black
@@ -20,6 +20,13 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/ProjectEmbric
+    - icon: fontawesome/brands/github
+      link: https://github.com/OfficialEmbric/projEmbric-Docs
 
 nav:
   - Welcome: index.md
@@ -43,7 +50,7 @@ markdown_extensions:
   - pymdownx.details
 
 repo_url: https://github.com/OfficialEmbric/projEmbric-Docs
-repo_name: projEmbric-Docs
+repo_name: Embric Docs GitHub
 edit_uri: ""
 
 plugins:
